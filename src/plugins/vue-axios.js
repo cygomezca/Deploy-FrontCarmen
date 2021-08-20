@@ -2,7 +2,7 @@ import Vue from 'vue';
 import axios from 'axios';
 import VueAxios from 'vue-axios';
 
-const baseURL = 'https://polar-dusk-09374.herokuapp.com';
+const baseURL = 'http://localhost:5000';
 
 axios.defaults.baseURL = baseURL;
 
